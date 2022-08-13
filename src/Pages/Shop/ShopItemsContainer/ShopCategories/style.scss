@@ -1,0 +1,41 @@
+.categories-blok {
+  width: 100%;
+  height: max-content;
+  margin-top: 25px;
+  span{
+    font-size: large;
+    background-color: black;
+    color: transparent;
+    color: #fff;
+    border-radius: 50%;
+  }
+
+  .categories-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .categories-left {
+      font-size: 20px;
+    }
+    .categories-rigth {
+      width: 30px;
+      height: 30px;
+      font-size: 30px;
+      background-color: black;
+      color: #fff;
+      border-radius: 50%;
+      border: 0.5px solid #fff;
+    }
+  }
+  .categoriesDisplay {
+    width: 100%;
+    display: none;
+  }
+  .categoriesBlok {
+    display: block;
+    .categories-text {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+  }
+}

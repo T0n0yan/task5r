@@ -1,0 +1,196 @@
+.container {
+  transition-duration: 0.5s;
+  width: 100%;
+  height: 100px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  overflow: hidden;
+  .headerContainer {
+    margin: 0 auto;
+
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    .headerTitle {
+      font-size: 48px;
+      color: #59ab6e;
+      font-weight: 600;
+    }
+    .listIcon {
+      font-size: 30px;
+      display: none;
+      color: #8d8d8e;
+
+      @media screen and (max-width: 1000px) {
+        display: block;
+        cursor: pointer;
+      }
+    }
+    .links {
+      display: flex;
+      justify-content: space-between;
+      width: 30%;
+      @media screen and (max-width: 1000px) {
+        display: none;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+      }
+    }
+    .icons {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 15px;
+      @media screen and (max-width: 1000px) {
+        display: none;
+      }
+      .inputAndSearch {
+        display: none;
+      }
+      div {
+        margin: 0 10px;
+        font-size: 20px;
+      }
+      .addedItems {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        position: relative;
+        .countedItem {
+          padding: 1px 10px;
+          position: absolute;
+          top: 0;
+          right: 0;
+          background-color: #e9eef5;
+          border-radius: 5px;
+        }
+      }
+      .addedMagazineItems {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        .countMagazine {
+          padding: 10px 15px;
+          position: absolute;
+          top: 0;
+          right: 30px;
+          background-color: #e9eef5;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
+
+.containerMedia {
+  height: 350px !important;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  transition-duration: 0.7s;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+
+  .headerContainer {
+    width: 90%;
+    margin: 10px auto;
+    .headerTitle {
+      position: absolute;
+      font-size: 48px;
+      color: #59ab6e;
+      font-weight: 600;
+      top: 22px;
+    }
+    .listIcon {
+      padding: 5px 15px;
+      border-radius: 5px;
+      border: 3px solid #8d8d8e;
+      position: absolute;
+      right: 47px;
+      top: 27px;
+      font-size: 30px;
+      cursor: pointer;
+      color: #8d8d8e;
+    }
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    position: absolute;
+    top: 90px;
+    font-size: 20px;
+    a {
+      margin: 8px 0;
+      text-decoration: none;
+      color: black;
+    }
+  }
+  .icons {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    position: absolute;
+    top: 250px;
+    right: 29px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    .inputAndSearch {
+      width: 80%;
+      height: 45px;
+      display: flex;
+      flex-direction: row-reverse;
+      margin: 10px 0;
+      .searchIcon {
+        width: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 21px;
+        background-color: #e9ecef;
+        display: flex;
+        flex-direction: row-reverse;
+        border-radius: 0 5px 5px 0;
+        border: 1px solid rgb(232, 231, 231);
+        cursor: pointer;
+      }
+      input {
+        width: 100%;
+        padding: 15px 5px;
+        font-size: 20px;
+        padding-left: 15px;
+        font-weight: normal;
+        border: 1px solid rgb(232, 231, 231);
+        border-radius: 5px 0 0 5px;
+        border-right: none;
+      }
+    }
+
+    .addedMagazineItems {
+      padding: 5px 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    .addedItems {
+      padding: 5px 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+  }
+}

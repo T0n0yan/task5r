@@ -1,0 +1,34 @@
+.LeftCaruselContainer {
+  left: 0;
+  top: 0;
+  .sliderTop {
+    margin: 0 auto;
+    width: 524px;
+    height: 100px;
+  }
+  .bottomCarusel {
+    margin-top: 500px;
+    width: max-content;
+    height: 200px;
+    display: flex;
+    border: 1px dashed black;
+    background-position: center;
+    div {
+      background-position: center;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px){
+}
+@media screen and (max-width: 1024px) {
+    
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 320px) {
+}

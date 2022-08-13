@@ -1,0 +1,113 @@
+.footerContainer {
+  padding-top: 100px;
+  width: 100%;
+  background-color: #212934;
+  color: #cfd6e1;
+  .listContainer {
+    display: flex;
+    width: 100%;
+    .list {
+      width: 99%;
+
+      ul {
+        width: 95%;
+        border-top: 1px solid #2d343f;
+        padding-top: 10px;
+        margin: 30px 0;
+        list-style-type: none;
+
+        li {
+          margin: 10px 0;
+        }
+      }
+      span {
+        font-size: 30px;
+      }
+
+      .homeListTitle {
+        font-size: 30px;
+        color: #59ab6e;
+      }
+      .contactsInfo {
+        li {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .footerSocials {
+    width: 100%;
+    display: flex;
+    padding: 30px 0;
+    border-top: 1px solid #2d343f;
+    .footerSocialIcons {
+      display: flex;
+      span {
+        margin: 0 5px;
+        font-size: 25px;
+        padding: 10px 10px;
+        border-radius: 50%;
+        border: 1px solid rgb(48, 48, 48);
+        &:hover {
+          background-color: white;
+          color: black;
+        }
+      }
+    }
+    .label {
+      display: flex;
+      input {
+        margin: 5px 0;
+        padding: 5px 15px;
+        border: 1px solid rgb(48, 48, 48);
+        border-radius: 5px 0 0 5px;
+        background-color: transparent;
+        color: white;
+        &:focues {
+          border: 2px solid rgb(23, 78, 161);
+        }
+      }
+      button {
+        margin: 5px 0;
+        padding: 5px 15px;
+        border: none;
+        background-color: #59ab6e;
+        border-radius: 0 5px 5px 0;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+  .footerFaq {
+    width: 100%;
+    background-color: #1d242d;
+    padding: 20px 0;
+    cursor: pointer;
+
+    span {
+      font-size: 18px;
+      a {
+        color: white;
+        &:hover {
+          color: #59ab6e;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    .listContainer {
+      .list {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.footerSocials {
+  display: flex;
+  flex-direction: column;
+}

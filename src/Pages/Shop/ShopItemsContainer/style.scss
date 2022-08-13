@@ -1,0 +1,131 @@
+.ShopItemsContainer {
+  width: 100%;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  margin-top: 50px;
+  .categores {
+    padding-left: 20px;
+    padding-top: 30px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    cursor: random;
+  }
+  .listDresses {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    position: relative;
+    .categoriesSelect {
+      position: absolute;
+      top: 0;
+      width: 200px;
+      margin-left: 10px;
+      display: flex;
+      justify-content: space-between;
+      span {
+        font-size: 22px;
+        color: #212529;
+        cursor: pointer;
+        &:hover {
+          color: #59ab6e;
+        }
+      }
+    }
+    .dressesContainer {
+      margin: 0 auto;
+      width: 320px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      margin: 10px 10px;
+
+      .dressesImg {
+        width: 320px;
+        height: 400px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        &:hover {
+          display: block;
+          filter: brightness(70%);
+          .dressesImgHover{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            span{
+              width: 50px;
+              height: 50px;
+              border: 1px solid white;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background-color: #59ab6e !important;
+              font-size: 20px;
+              margin: 10px;
+              color:white;
+              filter: brightness(100%);
+              filter: contrast(150%);
+              filter: contrast(190%);
+              border-radius: 5px;
+            }
+          }
+        }
+        .dressesImgHover{
+          display: none;
+        }
+      }
+      .dressesInfo {
+        display: flex;
+        flex-direction: column;
+        .dressesTitle {
+          font-size: 18px;
+          margin: 4px 15px;
+        }
+        .dressesSize {
+          font-size: 18px;
+          margin: 4px 15px;
+          color: #212529;
+          font-weight: 300;
+        }
+        span {
+          margin: 10px auto;
+          width: 125px;
+          height: 20px;
+        }
+        .dressesPrice {
+          margin: 10px auto;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .div-section {
+    display: flex;
+    margin-left: 824px;
+    .active {
+      background-color: #59ab6e;
+      color: white;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      cursor: pointer;
+    }
+    div {
+      padding: 20px 25px;
+      font-size: 18px;
+      font-family: "Open Sans", sans-ser;
+      text-align: center;
+      padding-top: 18px;
+      border: 1px solid rgb(236, 235, 235);
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      cursor: pointer;
+    }
+    .disabled {
+      background-color: white;
+      color: black;
+    }
+  }
+}

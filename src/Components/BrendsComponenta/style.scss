@@ -1,0 +1,42 @@
+.brandsMainContainer {
+  width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+  background-color: #e9eef5;
+  .brandTitleContainer {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    h2 {
+      font-size: 48px;
+      margin-bottom: 30px;
+      font-weight: 100;
+    }
+    span {
+      width: 200px;
+      font-size: 18px;
+    }
+  }
+  .brandsContainer {
+    width: 72%;
+    margin: 0 auto;
+  }
+  .brandsBlock {
+    width: 200px;
+    height: 200px;
+    padding-top: 50px;
+    .Brands {
+      margin: 0 auto;
+      width: 130px;
+      height: 80px;
+      display: flex;
+      filter: grayscale(100%);
+      opacity: 0.5;
+      transition: 0.5ms;
+      &:hover {
+        opacity: 1;
+        filter: none;
+      }
+    }
+  }
+}

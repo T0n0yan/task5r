@@ -1,0 +1,31 @@
+.aboutContainer {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #59ab6e;
+  color: white;
+  display: flex;
+  .firstContainer {
+    display: flex;
+    justify-content: space-between;
+    .leftSide {
+      margin: 0 40px 0 10px;
+      h2 {
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+      span {
+        font-size: 18px;
+        line-height: 1.8;
+        font-weight: 200;
+      }
+    }
+
+    .firstContImg {
+      padding: 160px;
+      width: 416px;
+      height: 416px;
+      background-image: url(../../../assets/Images/About/FirstContainerImages/about-hero.svg);
+    }
+  }
+}
