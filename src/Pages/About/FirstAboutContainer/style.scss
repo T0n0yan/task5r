@@ -29,3 +29,33 @@
     }
   }
 }
+@media screen and (max-width: 1200px) {
+  .aboutContainer {
+    width: 100%;
+    
+  }
+}
+@media screen and (max-width: 991px) {
+  .aboutContainer {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .aboutContainer {
+    .firstContainer {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+}
+@media screen and (max-width: 568px) {
+  .aboutContainer {
+    .firstContainer{
+      .firstContImg{
+        width: 200px;
+        height: 200px;
+      }
+    }
+  }
+}

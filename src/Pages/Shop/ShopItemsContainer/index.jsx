@@ -91,7 +91,7 @@ const ShopItemContainer = () => {
             </div>
           );
         })}
-        <div className="div-section">
+        <div className="pagesNumbers">
           <div
             onClick={() => setType("One")}
             className={type === "One" ? "active" : "disabled"}

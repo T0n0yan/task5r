@@ -19,9 +19,11 @@
     padding: 90px 0;
 
     .input-position {
+      width: 100%;
       display: flex;
       justify-content: space-between;
       .input {
+        width: 100%;
         padding: 9px 240px 9px 9px;
         font-size: 18px;
         border: 1px solid #e8e8e8;
@@ -68,4 +70,25 @@
       }
     }
   }
+}
+
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 991px) {
+  .input-section {
+    width: 100%;
+    .input-position {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    }
+}
+@media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 568px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 320px) {
 }

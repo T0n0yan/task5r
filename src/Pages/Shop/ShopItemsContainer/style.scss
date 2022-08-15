@@ -13,7 +13,7 @@
     cursor: random;
   }
   .listDresses {
-    width: 75%;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     padding-top: 30px;
@@ -36,28 +36,28 @@
     }
     .dressesContainer {
       margin: 0 auto;
-      width: 320px;
+      width: 28%;
       box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
       margin: 10px 10px;
 
       .dressesImg {
-        width: 320px;
+        width: 100%;
         height: 400px;
-        background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center;
 
         &:hover {
           display: block;
           filter: brightness(70%);
-          .dressesImgHover{
+          .dressesImgHover {
             width: 100%;
             height: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            span{
+            span {
               width: 50px;
               height: 50px;
               border: 1px solid white;
@@ -67,7 +67,7 @@
               background-color: #59ab6e !important;
               font-size: 20px;
               margin: 10px;
-              color:white;
+              color: white;
               filter: brightness(100%);
               filter: contrast(150%);
               filter: contrast(190%);
@@ -75,7 +75,7 @@
             }
           }
         }
-        .dressesImgHover{
+        .dressesImgHover {
           display: none;
         }
       }
@@ -104,9 +104,10 @@
       }
     }
   }
-  .div-section {
+  .pagesNumbers {
+    width: 89%;
+    justify-content: flex-end;
     display: flex;
-    margin-left: 824px;
     .active {
       background-color: #59ab6e;
       color: white;
@@ -129,3 +130,157 @@
     }
   }
 }
+
+@media screen and (max-width: 1275px) {
+  .ShopItemsContainer {
+    padding: 0;
+    .categores {
+      width: 20%;
+      margin: 0 auto;
+    }
+    .listDresses {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      .dressesContainer {
+        width: 30%;
+        padding: 0;
+      }
+      .dressesInfo {
+        width: 100%;
+      }
+    }
+    .pagesNumbers{
+      width: 96%;
+      margin: 50px 0;
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .ShopItemsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .categores {
+      width: 98%;
+      margin: 0 auto;
+    }
+    .listDresses {
+      margin: 20px auto;
+      .dressesContainer {
+        width: 30%;
+      }
+    }
+    .pagesNumbers{
+      width: 95%;
+      margin: 50px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ShopItemsContainer {
+    display: flex;
+    width: 100%;
+    .categores {
+      width: 80%;
+      padding: 0;
+      margin: 10px auto;
+    }
+    .listDresses {
+      max-width: 50%;
+      margin: 20px auto;
+      .dressesContainer {
+        width: 100%;
+        height: 600px;
+        margin: 20px auto;
+        .dressesImg {
+          width: 100%;
+          height: 500px;
+        }
+      }
+      .pagesNumbers{
+        margin: 50px 0;
+      }
+    }
+  }
+}
+@media screen and (max-width: 568px) {
+  .ShopItemsContainer {
+    display: flex;
+    width: 100%;
+    .categores {
+      width: 80%;
+      padding: 0;
+      margin: 10px auto;
+    }
+    .listDresses {
+      max-width: 50%;
+      margin: 20px auto;
+      .dressesContainer {
+        width: 100%;
+        height: 500px;
+        margin: 20px auto;
+        .dressesImg {
+          width: 100%;
+          height: 400px;
+        }
+      }
+      .pagesNumbers{
+        margin: 50px 0;
+      }
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .ShopItemsContainer {
+    display: flex;
+    width: 100%;
+    .categores {
+      width: 80%;
+      padding: 0;
+      margin: 0 auto;
+    }
+    .listDresses {
+      border: 1px solid black;
+      text-align: left;
+      width: 50%;
+      margin: 20px auto;
+      .dressesContainer {
+        width: 100%;
+        height: 400px;
+        margin: 20px auto;
+        .dressesImg {
+          width: 100%;
+          height: 300px;
+        }
+      }
+      .pagesNumbers{
+        margin: 30px 0;
+      }
+    }
+  }
+}
+// @media screen and (max-width: 568px) {
+//   .ShopItemsContainer {
+//     display: flex;
+//     width: 100%;
+//     .categores {
+//       max-width: 80%;
+//       padding: 0;
+//       margin: 10px auto;
+//     }
+//     .listDresses {
+//       width: 80%;
+//       margin: 20px auto;
+//       .dressesContainer {
+//         width: 100%;
+//         margin: 20px auto;
+//         .dressesImg {
+//           width: 100%;
+//           height: 500px;
+//         }
+//       }
+//     }
+//   }
+// }

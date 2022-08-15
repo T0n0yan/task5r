@@ -1,1 +1,1 @@
-.secondPageAbout{width:100%}.secondPageAbout .AboutSecondContainerList{width:100%;display:flex}
+.secondPageAbout{width:100%}.secondPageAbout .AboutSecondContainerList{width:100%;display:flex;flex-wrap:wrap}@media screen and (max-width: 991px){.secondPageAbout .AboutSecondContainerList{width:100%;display:flex}}
