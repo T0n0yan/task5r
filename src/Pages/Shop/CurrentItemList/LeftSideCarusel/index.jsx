@@ -10,8 +10,8 @@ const CurrentItemLeftCarusel = () => {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     initialSlide: 0,
     responsive: [
       {
@@ -46,11 +46,11 @@ const CurrentItemLeftCarusel = () => {
     <div className="LeftCaruselContainer">
       <div className="">
         <div className="topContainer">
-          <img src={img} className="aaa" alt="asd" />
-          <Slider {...settingsCaruselSingle}>
+          <img src={img} className="topImg" alt="asd" />
+          <Slider {...settingsCaruselSingle} >
             {leftCaruselData.map((el,index) => {
               return (
-              <div key={index}>
+              <div key={index} className="bottomImgCarusel">
                 <img src={el.img}  alt='yoga pics' className="sliderPics" onClick={()=> setImg(el.img)}/>
               </div>
               )

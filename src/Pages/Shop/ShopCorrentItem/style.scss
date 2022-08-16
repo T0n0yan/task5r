@@ -6,6 +6,7 @@
   font-family: "Roboto", sans-serif;
   background-color: #e9eef5 !important;
   .correntItemsLeftSide {
+    width: 40%;
     margin-top: 30px;
     background-color: #e9eef5;
   }
@@ -153,6 +154,25 @@
     }
   }
 }
-.currentCaruselContainer{
+.currentCaruselContainer {
   margin: 50px auto;
+}
+
+@media screen and (max-width: 991px) {
+  .correntItemContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .correntItemsLeftSide {
+      margin: 0 auto;
+    }
+    .temSize-and-quantity{
+      display: flex;
+      flex-direction: column;
+    }
+    .correntItemsRightSide {
+      width: 90%;
+      margin: 20px auto;
+    }
+  }
 }
