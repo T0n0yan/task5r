@@ -4,16 +4,20 @@
   background-color: #59ab6e;
   color: white;
   display: flex;
+
   .firstContainer {
     display: flex;
     justify-content: space-between;
+
     .leftSide {
       margin: 0 40px 0 10px;
+
       h2 {
         font-size: 40px;
         font-weight: 600;
         margin-bottom: 20px;
       }
+
       span {
         font-size: 18px;
         line-height: 1.8;
@@ -29,18 +33,21 @@
     }
   }
 }
+
 @media screen and (max-width: 1200px) {
   .aboutContainer {
     width: 100%;
-    
+
   }
 }
+
 @media screen and (max-width: 991px) {
   .aboutContainer {
     width: 100%;
     margin: 0 auto;
   }
 }
+
 @media screen and (max-width: 767px) {
   .aboutContainer {
     .firstContainer {
@@ -49,10 +56,11 @@
     }
   }
 }
+
 @media screen and (max-width: 568px) {
   .aboutContainer {
-    .firstContainer{
-      .firstContImg{
+    .firstContainer {
+      .firstContImg {
         width: 200px;
         height: 200px;
       }

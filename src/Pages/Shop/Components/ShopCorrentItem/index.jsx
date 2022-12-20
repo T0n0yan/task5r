@@ -1,8 +1,9 @@
 import React, {useState} from "react";
+import {Stars} from "../../../assets/Images/Starts/starts";
 import "./style.scss";
-import CurrentItemCarusel from "../../CurrentItemList";
-import CurrentItemLeftCarusel from "../../CurrentItemList/LeftSideCarusel";
-import {Stars} from "../../../assets/Images/Starts/stars";
+import "../../../assets/Style/flex.scss";
+import CurrentItemCarusel from "./../CurrentItemList/index";
+import CurrentItemLeftCarusel from "../CurrentItemList/LeftSideCarusel";
 
 const ShopCorrentItem = () => {
     const [count, setCount] = useState(1);
@@ -17,7 +18,8 @@ const ShopCorrentItem = () => {
             setCount(count - 1);
         }
     };
-    return (<div>
+    return (
+        <div>
             <div className="correntItemContainer">
                 <div className="correntItemsLeftSide">
                     <div className="correntItemVeiw">
@@ -85,10 +87,11 @@ const ShopCorrentItem = () => {
                 </div>
             </div>
 
-            <div className="currentCarouselContainer">
+            <div className="currentCaruselContainer">
                 <CurrentItemCarusel/>
             </div>
-        </div>);
+        </div>
+    );
 };
 
 export default ShopCorrentItem;

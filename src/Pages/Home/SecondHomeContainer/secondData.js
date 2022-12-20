@@ -1,16 +1,16 @@
-import { secondIMages } from "../../../assets/Images/Home/Home Second Container Images/secondImages";
+import {secondIMages} from "../../../assets/Images/Home/Home Second Container Images/secondImages";
 
 export const secondData = [
-  {
-    img: secondIMages.first,
-    title: "Watches",
-  },
-  {
-    img: secondIMages.second,
-    title: "Shoes",
-  },
-  {
-    img: secondIMages.third,
-    title: "Accessories",
-  },
+    {
+        img: secondIMages.first,
+        title: "Watches",
+    },
+    {
+        img: secondIMages.second,
+        title: "Shoes",
+    },
+    {
+        img: secondIMages.third,
+        title: "Accessories",
+    },
 ];

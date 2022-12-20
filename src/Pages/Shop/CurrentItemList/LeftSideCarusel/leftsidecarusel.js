@@ -10,14 +10,14 @@ import img9 from "../../../../assets/Images/Shop/Left-single-carusel-pics/produc
 import img10 from "../../../../assets/Images/Shop/Left-single-carusel-pics/product_single_10.jpg";
 
 export const leftSideCaruselPics = {
-  img1,
-  img2,
-  img3,
-  img4,
-  img5,
-  img6,
-  img7,
-  img8,
-  img9,
-  img10,
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8,
+    img9,
+    img10,
 };

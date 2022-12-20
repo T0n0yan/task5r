@@ -1,8 +1,5 @@
 import "./App.css";
-import "./assets/Style/background.scss";
-import "./assets/Style/Global.scss";
-import "./assets/Style/flex.scss";
-import "../src/assets/Icons/style.css";
+import './assets/Style/index.scss'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Header from "./Pages/Header";

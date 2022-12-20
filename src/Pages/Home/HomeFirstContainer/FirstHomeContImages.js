@@ -3,7 +3,7 @@ import img2 from "../../../assets/Images/Home/Home First Container Images/img2.j
 import img3 from "../../../assets/Images/Home/Home First Container Images/img3.jpg";
 
 export const FirstHomeCompImages = {
-  img1,
-  img2,
-  img3,
+    img1,
+    img2,
+    img3,
 };

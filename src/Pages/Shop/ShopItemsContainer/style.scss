@@ -4,6 +4,7 @@
   font-family: "Roboto", sans-serif;
   justify-content: center;
   margin-top: 50px;
+
   .categores {
     padding-left: 20px;
     padding-top: 30px;
@@ -12,12 +13,14 @@
     flex-direction: column;
     cursor: random;
   }
+
   .listDresses {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
     padding-top: 30px;
     position: relative;
+
     .categoriesSelect {
       position: absolute;
       top: 0;
@@ -25,15 +28,18 @@
       margin-left: 10px;
       display: flex;
       justify-content: space-between;
+
       span {
         font-size: 22px;
         color: #212529;
         cursor: pointer;
+
         &:hover {
           color: #59ab6e;
         }
       }
     }
+
     .dressesContainer {
       margin: 0 auto;
       width: 28%;
@@ -50,6 +56,7 @@
         &:hover {
           display: block;
           filter: brightness(70%);
+
           .dressesImgHover {
             width: 100%;
             height: 100%;
@@ -57,6 +64,7 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
+
             span {
               width: 50px;
               height: 50px;
@@ -75,28 +83,34 @@
             }
           }
         }
+
         .dressesImgHover {
           display: none;
         }
       }
+
       .dressesInfo {
         display: flex;
         flex-direction: column;
+
         .dressesTitle {
           font-size: 18px;
           margin: 4px 15px;
         }
+
         .dressesSize {
           font-size: 18px;
           margin: 4px 15px;
           color: #212529;
           font-weight: 300;
         }
+
         span {
           margin: 10px auto;
           width: 125px;
           height: 20px;
         }
+
         .dressesPrice {
           margin: 10px auto;
           font-size: 18px;
@@ -104,16 +118,19 @@
       }
     }
   }
+
   .pagesNumbers {
     width: 89%;
     justify-content: flex-end;
     display: flex;
+
     .active {
       background-color: #59ab6e;
       color: white;
       box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
       cursor: pointer;
     }
+
     div {
       padding: 20px 25px;
       font-size: 18px;
@@ -124,6 +141,7 @@
       box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
       cursor: pointer;
     }
+
     .disabled {
       background-color: white;
       color: black;
@@ -134,44 +152,54 @@
 @media screen and (max-width: 1275px) {
   .ShopItemsContainer {
     padding: 0;
+
     .categores {
       width: 20%;
       margin: 0 auto;
     }
+
     .listDresses {
       width: 100%;
       display: flex;
       align-items: center;
+
       .dressesContainer {
         width: 30%;
         padding: 0;
       }
+
       .dressesInfo {
         width: 100%;
       }
     }
-    .pagesNumbers{
+
+    .pagesNumbers {
       width: 96%;
       margin: 50px 0;
     }
   }
 }
+
 @media screen and (max-width: 991px) {
   .ShopItemsContainer {
     display: flex;
     flex-direction: column;
     width: 100%;
+
     .categores {
       width: 98%;
       margin: 0 auto;
     }
+
     .listDresses {
       margin: 20px auto;
+
       .dressesContainer {
         width: 30%;
       }
     }
-    .pagesNumbers{
+
+    .pagesNumbers {
       width: 95%;
       margin: 50px 0;
     }
@@ -182,85 +210,103 @@
   .ShopItemsContainer {
     display: flex;
     width: 100%;
+
     .categores {
       width: 80%;
       padding: 0;
       margin: 10px auto;
     }
+
     .listDresses {
       max-width: 50%;
       margin: 20px auto;
+
       .dressesContainer {
         width: 100%;
         height: 600px;
         margin: 20px auto;
+
         .dressesImg {
           width: 100%;
           height: 500px;
         }
       }
-      .pagesNumbers{
+
+      .pagesNumbers {
         margin: 50px 0;
       }
     }
   }
 }
+
 @media screen and (max-width: 568px) {
   .ShopItemsContainer {
     display: flex;
     width: 100%;
+
     .categores {
       width: 80%;
       padding: 0;
       margin: 10px auto;
     }
+
     .listDresses {
       max-width: 50%;
       margin: 20px auto;
+
       .dressesContainer {
         width: 100%;
         height: 500px;
         margin: 20px auto;
+
         .dressesImg {
           width: 100%;
           height: 400px;
         }
       }
-      .pagesNumbers{
+
+      .pagesNumbers {
         margin: 50px 0;
       }
     }
   }
 }
+
 @media screen and (max-width: 480px) {
   .ShopItemsContainer {
     display: flex;
     width: 100%;
+
     .categores {
       width: 80%;
       padding: 0;
       margin: 0 auto;
     }
+
     .listDresses {
       border: 1px solid black;
       text-align: left;
       width: 50%;
       margin: 20px auto;
+
       .dressesContainer {
         width: 100%;
         height: 400px;
         margin: 20px auto;
+
         .dressesImg {
           width: 100%;
           height: 300px;
         }
       }
-      .pagesNumbers{
+
+      .pagesNumbers {
         margin: 30px 0;
       }
     }
   }
 }
+
 // @media screen and (max-width: 568px) {
 //   .ShopItemsContainer {
 //     display: flex;

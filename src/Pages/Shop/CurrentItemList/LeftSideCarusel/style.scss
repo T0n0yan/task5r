@@ -1,6 +1,7 @@
 .LeftCaruselContainer {
   display: flex;
   flex-direction: column;
+
   .topContainer {
     position: relative;
     left: 20px;
@@ -11,11 +12,13 @@
     right: 20px;
     margin: 0 auto;
   }
+
   .sliderPics {
     margin: 0 auto;
     width: 120px;
     height: 120px;
   }
+
   .topImg {
     width: 524px;
     height: 524px;
@@ -26,6 +29,7 @@
     color: black;
     right: 0;
   }
+
   .slick-prev::before {
     color: black;
     position: absolute;
@@ -36,13 +40,16 @@
 @media screen and (max-width: 991px) {
   .LeftCaruselContainer {
     border: 1px solid black;
+
     .topContainer {
       width: 95%;
       margin: 0 auto;
+
       .sliderPics {
         width: 120px;
         height: 120px;
       }
+
       .topImg {
         width: 524px;
         height: 524px;
@@ -50,21 +57,26 @@
     }
   }
 }
+
 @media screen and (max-width: 767px) {
   .LeftCaruselContainer {
     .bottomImgCarusel {
       width: 100%;
     }
+
     .topContainer {
       margin: 0 auto;
     }
+
     .topImg {
       width: 50%;
       margin: 0 auto;
     }
   }
 }
+
 @media screen and (max-width: 568px) {
 }
+
 @media screen and (max-width: 480px) {
 }

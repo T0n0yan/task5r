@@ -3,14 +3,17 @@
   display: flex;
   margin: 50px auto;
   cursor: pointer;
+
   .secondImg {
     width: 350px;
     height: 350px;
     border-radius: 50%;
   }
+
   h3 {
     padding: 20px 0;
   }
+
   button {
     padding: 10px 20px;
     background-color: #59ab6e;
@@ -20,59 +23,71 @@
     cursor: pointer;
   }
 }
+
 @media screen and (max-width: 1200px) {
   .secondHomeContainer {
     width: 30%;
     margin-bottom: 50px;
+
     .secondImg {
       width: 250px;
       height: 250px;
     }
   }
 }
+
 @media screen and (max-width: 991px) {
   .secondHomeContainer {
     width: 30%;
+
     .secondImg {
       width: 150px;
       height: 150px;
     }
   }
 }
+
 @media screen and (max-width: 767px) {
   .secondHomeContainer {
     width: 100%;
     margin: 50px auto;
+
     .secondImg {
       width: 500px;
       height: 500px;
     }
   }
 }
+
 @media screen and (max-width: 576px) {
   .secondHomeContainer {
     width: 100%;
     margin: 50px auto;
+
     .secondImg {
       width: 400px;
       height: 400px;
     }
   }
 }
+
 @media screen and (max-width: 480px) {
   .secondHomeContainer {
     width: 100%;
     margin: 50px auto;
+
     .secondImg {
       width: 350px;
       height: 350px;
     }
   }
 }
+
 @media screen and (max-width: 320px) {
   .secondHomeContainer {
     width: 100%;
     margin: 50px auto;
+
     .secondImg {
       width: 300px;
       height: 300px;

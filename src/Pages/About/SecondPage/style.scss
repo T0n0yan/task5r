@@ -9,16 +9,19 @@
     font-family: "Roboto", sans-serif;
     border: none;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
     &:hover {
       background-color: #59ab6e;
       color: white;
       background-image: url;
+
       span {
         transition: 0.3s;
         color: white;
       }
     }
+
     span {
       display: flex;
       justify-content: center;
@@ -27,6 +30,7 @@
       font-size: 60px;
       color: #59ab6e;
     }
+
     p {
       padding: 50px 0;
       font-size: 20px;
@@ -42,11 +46,13 @@
 
   }
 }
+
 @media screen and (max-width: 767px) {
-  .secondContainer{
+  .secondContainer {
     width: 100%;
     margin: 10px auto;
   }
 }
+
 @media screen and (max-width: 568px) {
 }
