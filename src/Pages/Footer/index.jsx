@@ -4,7 +4,7 @@ import "./style.scss";
 const Footer = () => {
     return (
         <div className="footerContainer">
-            <div className="G-Container">
+            <div className="G-container">
                 <div className="listContainer G-justify-space-between">
                     <div className="list">
                         <span className="homeListTitle">Zay Shop</span>

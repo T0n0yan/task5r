@@ -13,6 +13,7 @@ import Shop from "./Pages/Shop/index";
 import CorrectItem from "./Pages/Shop/ShopCorrentItem";
 import { Provider } from "react-redux/es/exports";
 import store from './Store';
+import './assets/Icons/style.css'
 
 
 function App() {

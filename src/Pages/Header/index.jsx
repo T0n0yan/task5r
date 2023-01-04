@@ -15,7 +15,7 @@ const Header = () => {
     };
     return (
         <div className={variable ? "container" : "containerMedia"}>
-            <div className="G-Container">
+            <div className="G-container">
                 <div className="headerContainer G-justify-align-center">
                     <span className="headerTitle">Zay</span>
                     <div className="links">

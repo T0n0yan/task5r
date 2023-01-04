@@ -4,13 +4,12 @@ import ShopItemContainer from "./ShopItemsContainer";
 import "./style.scss";
 
 const Shop = () => {
-
-    return (
-        <div>
-            <ShopItemContainer/>
-            <OurBrandes/>
-        </div>
-    );
+  return (
+    <div >
+      <ShopItemContainer  />
+      <OurBrandes />
+    </div>
+  );
 };
 
 export default Shop;

@@ -1,15 +1,15 @@
 .secondContainer {
   width: 24%;
   display: flex;
-  margin-bottom: 7px;
-
+  margin-bottom: 70px;
   .secContInnerBody {
     width: 90%;
     margin: 0 auto;
     font-family: "Roboto", sans-serif;
     border: none;
+    min-height: 150px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 
     &:hover {
       background-color: #59ab6e;
@@ -43,7 +43,6 @@
 @media screen and (max-width: 991px) {
   .secondContainer {
     width: 48%;
-
   }
 }
 
